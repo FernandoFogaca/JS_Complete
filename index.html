@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS_Complete</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
     
-</body>
-</html>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="cabecalho">
+        <div><a class="btn1" href="">Main</a> </div>
+
+        <div><a class="btn2" href="">Contact</a></div>
+        <div class="btn3" id="cabecalho2">Practicing</div>
+    </header>
+
+
+    <main class="principal">
+        <div class="soma">
+            <input class="input_1" id="input_1" placeholder="Enter a Number" type="number">
+            <input class="input_2" id="input_2" placeholder="Enter a Number" type="number">
+            <button class="botaoSoma" onclick="somar()">Sum</button>
+            <h1 id="resultado"> </h1>
+        </div>
+
+
+
+        <div class="idPokemon">
+            <input class="input_3" id="input_3" placeholder="Pokemon ID" type="number">
+            <button class="botaoProcurar" onclick="search()">Search</button>
+            <h1 id="name"> </h1>
+            <img id="image" src="" alt="" srcset="">
+        </div>
+    </main>
+
+
+    <footer id="footer">Footer</footer>
+
+
+
+    <script src="script.js"></script>
+     </body>
+    </html>

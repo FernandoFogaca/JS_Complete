@@ -1,0 +1,132 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: grid;
+    margin-top: 10%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+        "header header"
+        " main main "
+        "footer footer";
+
+}
+
+#cabecalho {
+
+
+    border-top: solid #fce6a8 5px;
+    border-left: solid #fce6a8 5px;
+    border-right: solid #fce6a8 5px;
+    background-color: #D2e4e1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    grid-area: header;
+}
+
+.principal {
+
+    background-color: #D2e4e1;
+    border-top: solid #fce6a8 5px;
+    border-left: solid #fce6a8 5px;
+    border-right: solid #fce6a8 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    grid-area: main;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.soma{
+
+    flex-direction: column;
+    background-color: #E3E8ED;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    gap: 3px;
+    border: #E3E8ED 1px solid;
+}
+
+
+.idPokemon{
+
+    flex-direction: column;
+    background-color: #E3E8ED;
+    box-sizing: border-box;
+    flex-direction: column;	
+    display: flex;
+    padding: 15px;
+    margin-bottom: 10px;
+    gap: 3px;
+    border: #E3E8ED 1px solid;
+}
+
+
+#footer {
+    background-color: #D2e4e1;
+    ;
+    border-top: solid #fce6a8 5px;
+    border-left: solid #fce6a8 5px;
+    border-right: solid #fce6a8 5px;
+    ;
+    border-bottom: 5px solid #fce6a8;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    grid-area: footer
+}
+
+.btn1,
+.btn2 {
+
+    border-radius: 2PX;
+    border: solid #e3e8e0 2px;
+    float: left;
+    padding: 3px;
+    margin: 2px;
+    background-color: #788896;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+.input_1 , .input_2 , .input_3{
+
+    border:  #e3e8e0 1px solid;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+.botaoSoma , .botaoProcurar {
+
+    border:  #e3e8e0 1px solid;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: #788896;
+    color: white;
+    font-size: 10px;
+
+}
+
